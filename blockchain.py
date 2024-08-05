@@ -1,7 +1,9 @@
 from hashlib import sha256
 import json
 from time import time
-
+import hashlib
+from urllib.parse import urlparse
+import requests
 
 class BlockChain(object):
     
